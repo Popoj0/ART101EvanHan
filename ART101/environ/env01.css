@@ -1,0 +1,26 @@
+
+body {
+    background: url("../../images/cozyforestcabin.jpg");
+    position: fixed;
+    min-height: 100vh;
+    padding: 50px;
+    background-color: #e1f3f1; 
+}
+
+p { color: black; }
+p {background: lightblue; }
+h1{ color: lightblue; font-family: sans-serif; }
+h1 { background: black; 
+width: 200px
+}
+
+
+#cabinman {
+    width: 70px;
+position: fixed;
+top: 216px;
+left: 780px;
+
+
+
+}

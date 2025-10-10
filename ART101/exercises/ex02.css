@@ -1,0 +1,20 @@
+p {color: purple;}
+h1 {color: blueviolet;}
+li {color: red;}
+
+p {background: pink;}
+p {width:250px;}
+p {height:80px;}
+p {padding-top: 20px;}
+p {margin: 50px;}
+
+.high1 {background: red;}
+.high2 {background: yellowgreen;}
+
+#mykitten {
+    width: 200px;
+}
+
+
+
+funny{background: yellow;}

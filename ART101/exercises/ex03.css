@@ -1,0 +1,56 @@
+.test-div {
+  background: orange;
+  padding: 20px;
+  margin: 20px;
+}
+
+div.test-div h2 {
+color: plum;
+}
+
+div h2{ color: green;}
+
+.test-div:hover {
+  background: pink;
+}
+
+.test-div .special {
+    background: peachpuff;
+}
+
+h1, h2, h3, h4{
+    text-decoration: underline;
+}
+
+.special{
+    background: peachpuff;
+}
+
+p.special{
+    background: purple;
+}
+
+button.special{
+    background: peachpuff;
+}
+
+.special:hover{
+background: red;
+}
+
+#split{
+    display: flex;
+    flex-direction: column;
+}
+
+#house{
+    display: flex;
+flex-wrap: wrap;
+}
+
+
+
+
+
+
+

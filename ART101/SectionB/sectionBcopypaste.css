@@ -1,0 +1,109 @@
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 36px;
+    color: pink;
+    background: brown;
+    margin: 20px;
+    padding: 10px;
+    width: 150px;
+    border: 2px solid black;
+}
+
+p.p1 {
+    background: blue;
+    color: white;
+    padding: 20px;
+    width:295px
+}
+
+button.my-button{
+    color:aqua;
+    background: green;
+    margin: 30px;
+    padding: 5px;
+    width: 88px;
+}
+button.my-button:hover{ 
+    background-color: lightblue;
+}
+
+li.li1{
+    color: orange;
+}
+li.li2{
+    color: purple;
+}
+li.li3{
+    color: green;
+}
+
+li.ol1{
+    color: red;
+}
+li.ol2{
+    color: blue;
+}
+li.ol3{
+    color: green;
+}
+p.p2{ 
+    font-size: 20px;
+    color: brown;
+    background: lightblue;
+    width: 200px;
+    padding: 20px;
+    border: 2px solid black;
+    margin: 30px;
+
+}
+
+#mykitten{
+    width: 300px;
+    border: 5px solid black;
+    border-radius: 15px;
+    margin: 20px;
+}
+
+hr{
+    border: 2px solid black;
+    width: 310px;
+    margin: 20px;
+}
+
+div.div1{
+    background: lightgreen;
+    color: darkgreen;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid black;
+    width: 150px;
+    position: absolute;
+    left: 70px;
+    top: 925px;
+}
+
+div.div2{
+    background: lightblue;
+    color: darkblue;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid black;
+    width: 150px;
+    position: absolute;
+    left: 70px;
+    top: 975px;
+}
+
+div.div3{
+    background: lightcoral;
+    color: darkred;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid black;
+    width: 150px;
+    position: absolute;
+    left: 70px;
+    top: 1025px;
+}
+
