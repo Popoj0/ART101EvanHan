@@ -1,0 +1,40 @@
+
+body {
+    background: url("../exercises/images/cozyforestcabin.jpg") center/cover no-repeat fixed;
+    min-height: 100vh;
+    padding: 50px;
+    background-color: #e1f3f1; 
+}
+
+p { color: black; background: lightblue; }
+h1 { color: lightblue; font-family: sans-serif; background: black; width: 200px; }
+
+
+#cloud {
+    width: 200px;
+    position: absolute;
+    top: 8px;
+    left: 50%;
+}
+
+#cloud2 {
+    width: 200px;
+    position: absolute;
+    top: 17px;
+    left: 4%;
+}
+
+#tree {
+    width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+
+#cabinman {
+    width: 60px;
+    position: absolute;
+    top: 45%;
+    left: 60%;
+}
