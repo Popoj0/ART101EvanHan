@@ -1,2 +1,2 @@
- $("#output").append(  );
+ $("#output").append( "hello" );
 
