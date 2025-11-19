@@ -19,14 +19,20 @@ $("#needy-button").click(function () {
         $("body").append("<img width=50 src='images/orchid.png'>");
 }
 
-
-
     count = count + 1;
     colorCount = colorCount + 1;
 
     if ( colorCount == 4 ) {  colorCount=0;  }
 
 
+$("#reset-button").click(function () {
+    count = 0;
+    $("#needy-button").html("click me");
+    $("body").css("background-color", "white")
+    $("img").remove();
 
 
 });
+
+});
+  
