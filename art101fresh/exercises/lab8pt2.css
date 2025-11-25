@@ -6,7 +6,7 @@ body {
 }
 .info-row {
   display: flex;
-  max-width: 2000px;
+  max-width: 200px;
   margin: 20px auto;
   gap: 4px;              
   font-family: Arial, sans-serif;
@@ -75,8 +75,8 @@ h1 { color: lightblue; font-family: sans-serif; background: black; width: 200px;
 }
 
 #para {
-    color: orange;
-    margin: 10px;
+    color: pink;
+    margin: 100px;
 
 
 }
