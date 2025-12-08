@@ -9,6 +9,10 @@ h1, h2, h3 {color: #1d1184; font-family: sans-serif;}
 
 .navigation {
 display: flex;
-gap: 20px;
+gap: 40px;
 }
 
+.navigation-list{
+  margin: 0;
+  padding-left: 20px;
+}
