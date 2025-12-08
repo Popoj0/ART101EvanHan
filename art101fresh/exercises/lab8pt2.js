@@ -18,6 +18,29 @@ $(document).ready(function(){
 
 })
 
+const characterA = {
+    dayPhrase:  "Good morning! The forest is waking up.",
+    nightPhrase: "Good night. The cabin is cozy and quiet now."
+};
+
+function switchMode(mode) {
+    const body = document.body;
+    const talking = document.getElementById("talking");
+
+    if (mode === "night") {
+        body.classList.remove("day");
+        body.classList.add("night");
+        talking.textContent = characterA.nightPhrase;
+    } else {
+        body.classList.remove("night");
+        body.classList.add("day");
+        talking.textContent = characterA.dayPhrase;
+    }
+}
+
+switchMode("day");
+
+
 
 $(document).keydown(function(event) {
   $("#info2").css("transform", "scale(1.2)");

@@ -4,6 +4,19 @@ body {
     padding: 50px;
     background-color: #e1f3f1; 
 }
+
+body.day {
+    background: url("../exercises/images/cozyforestcabin.jpg") center/cover no-repeat fixed;
+    background-color: #e1f3f1;
+}
+
+body.night {
+  
+    background: url("../exercises/images/cozyforestcabinnight.jpg") center/cover no-repeat fixed; 
+    background-color: #02091a;
+}
+
+
 .info-row {
   display: flex;
   max-width: 200px;
